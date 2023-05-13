@@ -188,6 +188,7 @@ public:
 	~Guild() {
 		delete[] arr;
 	}
+private:
 	int size = 0;
 	Character* *arr = NULL;
 };
